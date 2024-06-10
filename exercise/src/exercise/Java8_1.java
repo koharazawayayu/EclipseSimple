@@ -23,7 +23,7 @@ public class Java8_1 {
 //		文字型の変数 myChar を宣言し、好きなアルファベット1文字で初期化してください。
 		char myChar = 'a';
 //		真偽型の変数 myBoolean を宣言し、条件式を用いて初期化してください。
-		boolean myBoolean = true;
+		boolean myBoolean = myInt == 25;
 //		文字列型の変数 myString を宣言し、自分の名前で初期化してください。
 		String myString = "yayu";
 //		【問題3】演算子について
