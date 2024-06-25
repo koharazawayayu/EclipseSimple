@@ -59,7 +59,7 @@ public class Java8_4 {
 		int[] num4 = {10, 50, 100, 150, 200};
 		int checkNum = 100;
 		for (int i = 0; i < num4.length; i++) {
-			if (num4[i] == checkNum) {
+			if (num4[i] >= checkNum) {
 				System.out.println("閾値を超えました");
 				break;
 			}
@@ -70,8 +70,9 @@ public class Java8_4 {
 //		9*9の整数型2次元配列を宣言して初期化し、for文で九九を代入するプログラム
 		for (int i = 1; i <= 9; i++) {
 			for (int j = 1; j <= 9; j++) {
-				System.out.println(i * j);
+				System.out.print(i * j + " ");
 			}
+			System.out.println();
 		}
 	}
 
