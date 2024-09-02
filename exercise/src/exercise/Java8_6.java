@@ -14,7 +14,7 @@ public class Java8_6 {
 //		3と5で割り切れる場合は"FizzBuzz"と表示
 //		そのほかの場合は、数字を表示
 //		ループ処理を使用する
-		for (var i = 1; i < 100; i++) {
+		for (var i = 1; i < 101; i++) {
 			if (i % 3 == 0 && i % 5 == 0) {
 				System.out.println("FizzBuzz");
 			}
@@ -61,7 +61,11 @@ public class Java8_6 {
 					result = num1 * num2;
 					break;
 				case "/":
-					result = num1 / num2;
+					if(num1 !=0 && num2 !=0) {
+						result = num1 / num2;
+					}else { 
+						System.out.println("0で割ることはできません。");
+			        }
 					break;
 			 }
 			 System.out.println(result);
