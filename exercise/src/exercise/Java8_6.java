@@ -14,7 +14,7 @@ public class Java8_6 {
 //		3と5で割り切れる場合は"FizzBuzz"と表示
 //		そのほかの場合は、数字を表示
 //		ループ処理を使用する
-		for (var i = 1; i < 101; i++) {
+		for (var i = 1; i <= 100; i++) {
 			if (i % 3 == 0 && i % 5 == 0) {
 				System.out.println("FizzBuzz");
 			}
